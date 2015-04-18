@@ -2,7 +2,7 @@
 layout: post
 title:  "สร้างโปรเจ็ค Java ด้วย Gradle"
 date:   2015-04-18 14:22:22
-categories: jekyll update
+categories: java project gradle
 ---
 
 ## ติดตั้ง Gradle
