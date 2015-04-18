@@ -7,15 +7,15 @@ categories: jekyll update
 
 ## ติดตั้ง Gradle
 
-1. เข้าไปโหลดที่ [Gradle][gradle-downloads] จะได้ไฟล์ `gradle-version-bin.zip`
+1. เข้าไปโหลดที่ [Gradle](http://gradle.org/downloads) จะได้ไฟล์ `gradle-version-bin.zip`
 2. แตก zip
 3. set path ไปที่แตก zip
 
 ทดสอบการติดตั้ง Gradle โดยเปิด command-line แล้วรัน
 
-{% highlight gradle %}
+~~~
 gradle
-{% endhighlight %}
+~~~
 
 จะมี message ต้อนรับขึ้นมา `Welcome to Gradle 2.3. ... BUILD SUCCESSFUL`
 
@@ -102,6 +102,4 @@ gradle run
 Hello world!!
 
 BUILD SUCCESSFUL
-~~~    
-
-[gradle-downloads]: http://gradle.org/downloads
+~~~
