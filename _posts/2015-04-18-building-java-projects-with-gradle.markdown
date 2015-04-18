@@ -73,7 +73,7 @@ gradle build
 build.gradle
 ~~~
 
-เพิ่มปลั๊กอิน application ใน `build.gradle` เพื่อให้เวลารันแอพแล้วมันจะวิ่งเข้า `main method`
+เพิ่มปลั๊กอิน application ใน `build.gradle` *เพื่อให้เวลารันแอพแล้วมันจะวิ่งเข้า* `main method`
 
 ~~~
 apply plugin: 'application'
