@@ -216,6 +216,7 @@
         @include media-query($on-laptop) {
             font-size: 28px;
         }
+        margin-top: $spacing-unit*2;
     }
 
     h3 {
