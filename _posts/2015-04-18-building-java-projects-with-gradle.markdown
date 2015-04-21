@@ -90,7 +90,7 @@ mainClassName = 'hello.HelloWorld'
 เสร็จแล้วรัน build (อีกรอบ)
 
 ~~~
-C:\> gradle build
+C:\<your directory>> gradle build
 ~~~
 
 ข้อความ `... BUILD SUCCESSFUL` จะขึ้นมา
@@ -98,7 +98,7 @@ C:\> gradle build
 เสร็จแล้วรันแอพ
 
 ~~~
-C:\> gradle run
+C:\<your directory>> gradle run
 ~~~
 
 ~~~
