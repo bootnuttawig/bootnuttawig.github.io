@@ -14,7 +14,7 @@ categories: java project gradle
 ทดสอบการติดตั้ง Gradle โดยเปิด command-line แล้วรัน
 
 ~~~
-gradle
+C:\> gradle
 ~~~
 
 จะมี message ต้อนรับขึ้นมา `Welcome to Gradle 2.3. ... BUILD SUCCESSFUL`
@@ -44,16 +44,23 @@ public class HelloWorld {
 
 ## Build it!!!
 
-สร้างไฟล์ `build.gradle` แล้วเพิ่มปลั๊กอิน java เข้าไป
+สร้างไฟล์ `build.gradle` แล้วเพิ่มปลั๊กอิน java เข้าไป (สร้างไว้ที่ root ของโปรเจ็คเลยนะครับ)
+
+~~~
+<your directory>
+└─ src
+   └─ ...
+build.gradle
+~~~
 
 ~~~
 apply plugin: 'java'
 ~~~
 
-เสร็จแล้วรัน
+เสร็จแล้วรัน `gradle build` (cd ไปที่ root แล้วรัน)
 
 ~~~
-gradle build
+C:\<your directory>> gradle build
 ~~~
 
 จะได้ `HelloWorld.class`
@@ -83,7 +90,7 @@ mainClassName = 'hello.HelloWorld'
 เสร็จแล้วรัน build (อีกรอบ)
 
 ~~~
-gradle build
+C:\> gradle build
 ~~~
 
 ข้อความ `... BUILD SUCCESSFUL` จะขึ้นมา
@@ -91,7 +98,7 @@ gradle build
 เสร็จแล้วรันแอพ
 
 ~~~
-gradle run
+C:\> gradle run
 ~~~
 
 ~~~
@@ -103,3 +110,9 @@ Hello world!!
 
 BUILD SUCCESSFUL
 ~~~
+
+## สรุป
+
+เสร็จแล้วครับ เราจะได้โปรเจ็คจาวาที่ create ด้วย command-line + text editors *เหมาะสำหรับคนที่ขี้เกียจโหลด eclipse*
+
+[source code](https://github.com/codepeebig/simple-java-project)
